@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = 'http://localhost:8080/api/auth/';
+const API_URL = 'http://localhost:8081/api/auth/';
 export default {
   login(user) {
     return axios
